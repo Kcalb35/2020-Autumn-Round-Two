@@ -32,6 +32,8 @@
 
 采用的是Apache协议，因为根据规定在其衍生的代码中需要带有原来代码中的协议
 
+##### 1-5
+
 [microsoft/vscode: Visual Studio Code (github.com)](https://github.com/microsoft/vscode)是一款微软起头编写的编辑器，其
 
 采用的许可证为MIT License
@@ -60,13 +62,29 @@ Linux是操作系统，它是基于Linux内核和一众GNU元件构成的GUN/Lin
 
 例如可以使用 `export MY_VALUE=13555`，或者将已经设置好的变量`MY_VALUE`使用`export MY_VALUE`。
 
-其定义的变量作用范围仅限于该次登陆
+其定义的变量作用范围仅限于该次登陆。
+
+##### 2-4
+
+```shell
+sudo useradd dino
+sudo passwd dino
+sudoedit /etc/sudoers
+
+#添加一行 dino	ALL=(ALL:ALL) ALL
+```
+
+
+
+##### 2-5
+
+passwd文件中每一行代表一个用户，以冒号分成七格分别是，账户名称、密码占位、UID、GID、账户附加基本信息、Home目录、登录Shell
 
 
 
 ##### 2-6
 
-xterm是一个终端，它依赖于以下包
+xterm可以用来模拟终端，它依赖于以下包
 
 - libc6 (>= 2.15) [amd64, s390x]
 - libfontconfig1 (>= 2.12.6)
