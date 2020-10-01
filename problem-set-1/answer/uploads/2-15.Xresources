@@ -1,0 +1,38 @@
+xterm*faceName:DejaVu Sans Mono:antialias=True:pixelsize=14
+
+xterm*foreground:#f8f8f2
+xterm*foreground_bold:#f8f8f2
+xterm*cursorColor:#f8f8f2
+xterm*background:#272822
+
+! black
+xterm*color0:#272822
+xterm*color8:#75715e
+
+! red
+xterm*color1:#f92672
+xterm*color9:#f92672
+
+! green
+xterm*color2:#a6e22e
+xterm*color10:#a6e22e
+
+! yellow
+xterm*color3:#f4bf75
+xterm*color11:#f4bf75
+
+! blue
+xterm*color4:#66d9ef
+xterm*color12:#66d9ef
+
+! magenta
+xterm*color5:#ae81ff
+xterm*color13:#ae81ff
+
+! cyan
+xterm*color6:#a1efe4
+xterm*color14:#a1efe4
+
+! white
+xterm*color7:#f8f8f2
+xterm*color15:#f9f8f5
