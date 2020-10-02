@@ -1,0 +1,183 @@
+<html>
+
+<head>
+    <title>hello,QSC</title>
+    <style type="text/css">
+        @font-face {
+            font-family: DIN;
+            src: url("./resource/DIN-Light.otf"), url("./resource/DIN-Medium.otf");
+        }
+        
+        @font-face {
+            font-family: RaleWay;
+            src: url("./resource/Raleway-Medium.ttf"), url("./resource/Raleway-Thin.ttf")
+        }
+        
+        #first {
+            background-color: #121117;
+            height: 100%;
+        }
+        
+        #second {
+            background-color: #FAE2D0;
+        }
+        
+        #logo {
+            width: 120px;
+            margin: 0 0 15px 40px;
+        }
+        
+        #center {
+            width: 85%;
+            height: 85%;
+            background-image: url("./resource/stars-translucent.svg");
+            margin: 0 auto;
+        }
+        
+        .words {
+            font-size: 80px;
+            color: #ffffff;
+            font-family: "Raleway";
+            white-space: nowrap;
+        }
+        
+        #hey {
+            position: absolute;
+            margin: 0 0 0 30;
+        }
+        
+        #greeting {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 1;
+        }
+        
+        .btn {
+            width: 300px;
+            height: 80px;
+            position: absolute;
+            top: 85%;
+            transform: translateY(-50%)
+        }
+        
+        #join {
+            letter-spacing: 4px;
+            font-size: 24px;
+            font-family: "DIN";
+            font-weight: bold;
+        }
+        
+        .circle {
+            border-radius: 50%;
+            height: 314px;
+            width: 314px;
+            background-color: #C97640;
+            margin: 0 auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(20px, -50%);
+        }
+        
+        #productBox {
+            display: flex;
+            justify-content: center;
+        }
+        
+        #productsBg {
+            border: #ffffff 1px solid;
+            background-color: #000000;
+            width: 20%;
+            padding: 5px 0;
+            display: flex;
+            justify-content: center;
+            margin: 30 0 0 0;
+        }
+        
+        #products {
+            font: 24px bold;
+            color: #ffffff;
+            white-space: nowrap;
+        }
+        
+        #parallel {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 928px;
+            margin: 100 auto 0;
+        }
+        
+        .product {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .productName {
+            text-align: center;
+            color: #000000;
+            font-weight: bold;
+            font-family: "Raleway";
+            font-size: 40px;
+        }
+        
+        #comment {
+            color: red;
+            font-size: 20px;
+            font-style: italic;
+            text-align: center;
+            margin: 40px 0 0 0;
+        }
+        
+        #more {
+            text-align: center;
+            font-family: "Raleway";
+            font-size: 44px;
+            margin-top: 30px;
+            padding-bottom: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg" id="first">
+        <img src="./resource/qsc-logo-white.svg" id="logo" />
+        <div id="center">
+            <div id="hey" class="words">Hey,</div>
+            <div id="greeting" class="words">We Are &nbsp&nbsp&nbsp<i>QSCTech</i> &nbsp&nbsp&nbsp&gtW&lt</div>
+            <div class="circle"></div>
+            <button class="btn">
+                    <span id="join">JOIN US!</span>
+            </button>
+        </div>
+    </div>
+    <div class="bg" id="second">
+        <div id="productBox">
+            <div id="productsBg">
+                <span id="products">OUR PRODUCTS</span>
+            </div>
+        </div>
+        <div id="parallel">
+            <div class="product">
+                <img src="./resource/box.png" height="128px" width="128px" />
+                <div class="productName">Box</div>
+            </div>
+            <div class="product">
+                <img src="./resource/mobile.png" height="128px" width="128px" />
+                <div class="productName">Mobile</div>
+            </div>
+            <div class="product">
+                <img src="./resource/enroll.png" height="128px" width="128px" />
+                <div class="productName">Box</div>
+            </div>
+        </div>
+        <div id="comment">*:Mobile For Android目前正在维护中，对您造成的不便请您谅解~</div>
+        <div id="more">And More..</div>
+    </div>
+</body>
+
+</html>
